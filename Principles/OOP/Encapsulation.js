@@ -45,9 +45,9 @@ class BankAccount {
 // Usage
 const myAccount = new BankAccount("Jacob", 1000);
 
-console.log(myAccount.getBalance());  // ✅ Read via method
-myAccount.deposit(200);               // ✅ Update via method
-myAccount.withdraw(150);             // ✅ Withdraw with validation
-console.log(myAccount.getBalance());  // ✅ Final balance
+console.log(myAccount.getBalance());  //  Read via method
+myAccount.deposit(200);               // Update via method
+myAccount.withdraw(150);             // Withdraw with validation
+console.log(myAccount.getBalance());  //  Final balance
 
-// console.log(myAccount.#balance);   ❌ Will throw an error — private field!
+// console.log(myAccount.#balance);   This Will throw an error as its a private field
