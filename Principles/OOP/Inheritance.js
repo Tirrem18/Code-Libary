@@ -1,7 +1,10 @@
 // Inheritance
 
-// Inheritance allows a class (child) to acquire properties and methods from another class (parent).
-// This promotes code reuse and creates a logical relationship between classes.
+// Inheritance allows one class (child) to inherit the properties and methods of another class (parent).
+// This helps avoid repeating code and makes it easier to organize related classes.
+
+// The child class can also add new features or override parts of the parent class to change how it works.
+
 
 // Inheritance Example: Vehicle and Car
 

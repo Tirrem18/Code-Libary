@@ -1,7 +1,12 @@
-//Encapsulation
+// Encapsulation
 
-// Encapsulation is the act of bundling data (like variables) and methods (functions) that work on that data into one unit (a class),
-// while restricting direct access to some of the object's components for better control and security.
+// Encapsulation is about keeping related data and functions together in one unit – usually a class.
+// It also means hiding certain parts of the data so they can only be changed in controlled ways.
+
+// This helps protect the internal state of an object and prevents other code from accidentally changing things it shouldn't.
+
+// We use access modifiers (like private) to hide variables, and provide public methods to interact with them safely.
+
 
 
 // Encapsulation Example: Bank Account
